@@ -1,0 +1,24 @@
+### Tasks - get list
+
+GET  http://localhost:3000/tasks
+content-type: application/json
+
+{
+    
+}
+### Tasks - create one task
+POST http://localhost:3000/tasks
+content-type: application/json
+
+{
+  "title":"This is a task title",
+  "description": "And this is its description"
+}
+
+### Tasks - get one taks by id
+GET http://localhost:3000/tasks/1gburdrbf
+content-type: application/json
+
+{
+ 
+}
